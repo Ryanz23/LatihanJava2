@@ -1,3 +1,5 @@
+package mahasiswa;
+
 public class MahasiswaBeraksi {
     public static void main(){
         //Create object
