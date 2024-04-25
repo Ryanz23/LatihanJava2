@@ -7,8 +7,11 @@ public class MatematikaBeraksi {
         Matematika matematika = new Matematika();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Welcome to Math Program");
+
         //setPertambahan
         //input variable
+        System.out.println("Pertambahan");
         System.out.print("Input a : ");
         int a = scanner.nextInt();
         System.out.print("Input b : ");
@@ -19,6 +22,7 @@ public class MatematikaBeraksi {
 
         //setPengurangan
         //input variable
+        System.out.println("Pengurangan");
         System.out.print("Input a : ");
         a = scanner.nextInt();
         System.out.print("Input b : ");
@@ -29,6 +33,7 @@ public class MatematikaBeraksi {
 
         //setPerkalian
         //input variable
+        System.out.println("Perkalian");
         System.out.print("Input a : ");
         a = scanner.nextInt();
         System.out.print("Input b : ");
@@ -38,6 +43,8 @@ public class MatematikaBeraksi {
         System.out.println("Hasil " + a + " * " + b + " = " + matematika.getPerkalian());
 
         //setPembagian
+        //input variable
+        System.out.println("Pembagian");
         System.out.print("Input a : ");
         a = scanner.nextInt();
         System.out.print("Input b : ");
