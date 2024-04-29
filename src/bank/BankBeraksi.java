@@ -1,7 +1,5 @@
 package bank;
 
-import java.util.Scanner;
-
 public class BankBeraksi {
     Bank bank = new Bank(1000000);
 
