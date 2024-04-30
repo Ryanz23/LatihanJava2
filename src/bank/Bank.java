@@ -9,6 +9,7 @@ public class Bank {
     public void simpanUang(int jumlah){
         saldo += jumlah;
         System.out.println("Simpan Uang : Rp. " + jumlah);
+        System.out.println("Saldo saat ini : Rp. " + saldo);
     }
     public void ambilUang(int jumlah){
         if (jumlah > saldo){

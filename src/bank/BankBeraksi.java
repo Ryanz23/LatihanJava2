@@ -1,13 +1,13 @@
 package bank;
 
 public class BankBeraksi {
-    Bank bank = new Bank(1000000);
+    Bank bank = new Bank(100000);
 
     public void run(){
         System.out.println("Selamat Datang di Bank BCA");
         bank.getSaldo();
-        bank.simpanUang(100000);
-        bank.ambilUang(50000);
+        bank.simpanUang(500000);
+        bank.ambilUang(150000);
     }
     public static void main(String[]args){
         BankBeraksi bank = new BankBeraksi();
