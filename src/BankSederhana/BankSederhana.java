@@ -24,10 +24,10 @@ public class BankSederhana {
 
         //Ambil uang
         System.out.println("Apakah anda akan mengambil uang? (ya/tidak)");
-        scanner.nextBoolean();
+        String jawaban = scanner.next();
 
         //Jika ya maka output akan meminta untuk melakukan input terhadap jumlah nominal
-        if (true) {
+        if (jawaban.equals("ya")) {
             System.out.println("Silakan isikan nominal yang akan diambil disini: ");
             nominal = scanner.nextInt();
 
