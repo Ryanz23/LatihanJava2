@@ -1,7 +1,5 @@
 package BankSederhana;
 
-import bank.Bank;
-
 import java.util.Scanner;
 
 public class BankSederhana {
