@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BankSederhana {
 
-    public static void main(String[] args) {
+    public static void main(String[]args) {
         Scanner scanner = new Scanner(System.in);
         String nama;
         int saldo = 1000000;
@@ -38,8 +38,10 @@ public class BankSederhana {
             }else {
                 System.out.println("Terima Kasih, Saldo anda sekarang : Rp " + (saldo -= nominal));
             }
-        }else { //Jika tidak melakukan pengambilan uang output langsung menutup program
+        } else if (jawaban.equals("tidak")) {
+            //Jika tidak melakukan pengambilan uang output langsung menutup program
             System.out.println("Terima Kasih, Saldo anda sekarang : Rp " + saldo);
         }
+
     }
 }
