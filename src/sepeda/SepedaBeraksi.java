@@ -9,7 +9,7 @@ public class SepedaBeraksi {
         System.out.println("Gir saat ini : " + sepedaku.getGir());
 
         //adds 3 to the current gear position (1)
-        sepedaku.setGir(3);
+        sepedaku.gir=3;
         System.out.println("Gir saat ini : " + sepedaku.getGir());
     }
 }

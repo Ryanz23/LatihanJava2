@@ -52,5 +52,7 @@ public class MatematikaBeraksi {
 
         matematika.setPembagian(a,b);
         System.out.println("Hasil " + a + " / " + b + " = " + matematika.getPembagian());
+
+        MatematikaCanggihBeraksi.main();
     }
 }
