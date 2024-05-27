@@ -3,7 +3,6 @@ package lampu;
 public class Lampu implements InterfaceLampu{
     int statusLampu;
 
-    @Override
     public void hidupkan() {
         if (statusLampu == KEADAAN_MATI){
             statusLampu = KEADAAN_HIDUP;
@@ -13,7 +12,6 @@ public class Lampu implements InterfaceLampu{
         }
     }
 
-    @Override
     public void matikan() {
         if (statusLampu == KEADAAN_HIDUP){
             statusLampu = KEADAAN_MATI;
