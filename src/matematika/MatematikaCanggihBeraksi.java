@@ -15,6 +15,16 @@ public class MatematikaCanggihBeraksi{
 
         mc.setModulus(a,b);
         System.out.println("Hasil " + a + " % " + b + " = " + mc.getModulus());
+
+
+        System.out.println("Penjumlahan Pecahan");
+        System.out.print("input a :");
+        double a2 = scanner.nextDouble();
+        System.out.print("input b :");
+        double b2 = scanner.nextDouble();
+        System.out.print("input c : ");
+        double c2 = scanner.nextDouble();
+        System.out.println("PenjumlahanPecahan:" + mc.getPenjumlahanPecahan());
     }
 
 
